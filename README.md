@@ -1,4 +1,12 @@
-# UMS Example(ROOT) Project
+#Name of project
+EcmaConnect
 
-### Check usage guide from following link
-https://gitlab.unimedia.mn/ums-example-group/ums-wiki/-/wikis/Create-from-UMS-Example-project-wiki
+#Installation & Configuration
+
+#Environment
+
+#Quick Start
+
+#Testing
+
+#Deployment
