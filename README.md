@@ -1,12 +1,13 @@
-#Name of project
+##Name of project
+
 EcmaConnect
 
-#Installation & Configuration
+##Installation & Configuration
 
-#Environment
+##Environment
 
-#Quick Start
+##Quick Start
 
-#Testing
+##Testing
 
-#Deployment
+##Deployment
