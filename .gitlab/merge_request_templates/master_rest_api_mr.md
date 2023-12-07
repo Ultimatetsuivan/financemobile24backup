@@ -22,28 +22,28 @@
 ## Checklists
 
 ## Security болон Authorization
-- [Authentication ](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/Rest-API#authentication)
-  - [Authentication ашиглаж байгааг шалгах ](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/Rest-API#authentication-%D0%B0%D1%88%D0%B8%D0%B3%D0%BB%D0%B0%D0%B6-%D0%B1%D0%B0%D0%B9%D0%B3%D0%B0%D0%B0%D0%B3-%D1%88%D0%B0%D0%BB%D0%B3%D0%B0%D1%85)
-  - [Authentication(Token) expire хийж байгааг шалгах ](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/Rest-API#authentication-expire-%D0%B1%D0%BE%D0%BB%D0%B6-%D0%B1%D0%B0%D0%B9%D0%B3%D0%B0%D0%B0%D0%B3-%D1%88%D0%B0%D0%BB%D0%B3%D0%B0%D1%85)
-  - [Expire болсон authentication-ийг дахин ашиглаж болохгүй байх ](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/Rest-API#expire-%D0%B1%D0%BE%D0%BB%D1%81%D0%BE%D0%BD-authentication-%D0%B8%D0%B9%D0%B3-%D0%B4%D0%B0%D1%85%D0%B8%D0%BD-%D0%B0%D1%88%D0%B8%D0%B3%D0%BB%D0%B0%D0%B6-%D0%B1%D0%BE%D0%BB%D0%BE%D1%85%D0%B3%D2%AF%D0%B9-%D0%B1%D0%B0%D0%B9%D1%85)
+- [Authentication ](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/REST-API-release-MR-checklist-wiki#authentication)
+  - [Authentication ашиглаж байгааг шалгах ](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/REST-API-release-MR-checklist-wiki#authentication-%D0%B0%D1%88%D0%B8%D0%B3%D0%BB%D0%B0%D0%B6-%D0%B1%D0%B0%D0%B9%D0%B3%D0%B0%D0%B0%D0%B3-%D1%88%D0%B0%D0%BB%D0%B3%D0%B0%D1%85)
+  - [Authentication(Token) expire хийж байгааг шалгах ](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/REST-API-release-MR-checklist-wiki#authentication-expire-%D0%B1%D0%BE%D0%BB%D0%B6-%D0%B1%D0%B0%D0%B9%D0%B3%D0%B0%D0%B0%D0%B3-%D1%88%D0%B0%D0%BB%D0%B3%D0%B0%D1%85)
+  - [Expire болсон authentication-ийг дахин ашиглаж болохгүй байх ](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/REST-API-release-MR-checklist-wiki#expire-%D0%B1%D0%BE%D0%BB%D1%81%D0%BE%D0%BD-authentication-%D0%B8%D0%B9%D0%B3-%D0%B4%D0%B0%D1%85%D0%B8%D0%BD-%D0%B0%D1%88%D0%B8%D0%B3%D0%BB%D0%B0%D0%B6-%D0%B1%D0%BE%D0%BB%D0%BE%D1%85%D0%B3%D2%AF%D0%B9-%D0%B1%D0%B0%D0%B9%D1%85)
   - Ямар ч authentication-гүй request явуулахад зөвшөөрөхгүй байх 
-  - [Өөр хүний authentication ашиглаж болохгүй байх ](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/Rest-API#%D3%A9%D3%A9%D1%80-%D1%85%D2%AF%D0%BD%D0%B8%D0%B9-authentication-%D0%B0%D1%88%D0%B8%D0%B3%D0%BB%D0%B0%D0%B6-%D0%B1%D0%BE%D0%BB%D0%BE%D1%85%D0%B3%D2%AF%D0%B9-%D0%B1%D0%B0%D0%B9%D1%85)
-  - [Алдаатай authentication ашиглаж хандах үед error handle хийж байгааг шалгах ](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/Rest-API#%D0%B0%D0%BB%D0%B4%D0%B0%D0%B0%D1%82%D0%B0%D0%B9-authentication-%D0%B0%D1%88%D0%B8%D0%B3%D0%BB%D0%B0%D0%B6-%D1%85%D0%B0%D0%BD%D0%B4%D0%B0%D1%85-%D2%AF%D0%B5%D0%B4-error-handle-%D1%85%D0%B8%D0%B9%D0%B6-%D0%B1%D0%B0%D0%B9%D0%B3%D0%B0%D0%B0%D0%B3-%D1%88%D0%B0%D0%BB%D0%B3%D0%B0%D1%85)
-- [Authorization ](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/Rest-API#authorization)
-  - [Authorization хийгдэж байгааг шалгах ](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/Rest-API#authorization-%D1%85%D0%B8%D0%B9%D0%B3%D0%B4%D1%8D%D0%B6-%D0%B1%D0%B0%D0%B9%D0%B3%D0%B0%D0%B0%D0%B3-%D1%88%D0%B0%D0%BB%D0%B3%D0%B0%D1%85)
-  - [Resource руу authorization хүрэхгүй үед request явуулахад зөвшөөрөхгүй байх ](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/Rest-API#authorization-%D1%85%D0%B8%D0%B9%D0%B3%D0%B4%D1%8D%D0%B6-%D0%B1%D0%B0%D0%B9%D0%B3%D0%B0%D0%B0%D0%B3-%D1%88%D0%B0%D0%BB%D0%B3%D0%B0%D1%85)
-  - [Өөрт хамааралгүй endpoint руу request явуулахад зөвшөөрөхгүй байх (user admin-ний endpoint руу хандах) ](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/Rest-API#authorization-%D1%85%D0%B8%D0%B9%D0%B3%D0%B4%D1%8D%D0%B6-%D0%B1%D0%B0%D0%B9%D0%B3%D0%B0%D0%B0%D0%B3-%D1%88%D0%B0%D0%BB%D0%B3%D0%B0%D1%85)
+  - [Өөр хүний authentication ашиглаж болохгүй байх ](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/REST-API-release-MR-checklist-wiki#%D3%A9%D3%A9%D1%80-%D1%85%D2%AF%D0%BD%D0%B8%D0%B9-authentication-%D0%B0%D1%88%D0%B8%D0%B3%D0%BB%D0%B0%D0%B6-%D0%B1%D0%BE%D0%BB%D0%BE%D1%85%D0%B3%D2%AF%D0%B9-%D0%B1%D0%B0%D0%B9%D1%85)
+  - [Алдаатай authentication ашиглаж хандах үед error handle хийж байгааг шалгах ](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/REST-API-release-MR-checklist-wiki#%D0%B0%D0%BB%D0%B4%D0%B0%D0%B0%D1%82%D0%B0%D0%B9-authentication-%D0%B0%D1%88%D0%B8%D0%B3%D0%BB%D0%B0%D0%B6-%D1%85%D0%B0%D0%BD%D0%B4%D0%B0%D1%85-%D2%AF%D0%B5%D0%B4-error-handle-%D1%85%D0%B8%D0%B9%D0%B6-%D0%B1%D0%B0%D0%B9%D0%B3%D0%B0%D0%B0%D0%B3-%D1%88%D0%B0%D0%BB%D0%B3%D0%B0%D1%85)
+- [Authorization ](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/REST-API-release-MR-checklist-wiki#authorization)
+  - [Authorization хийгдэж байгааг шалгах ](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/REST-API-release-MR-checklist-wiki#authorization-%D1%85%D0%B8%D0%B9%D0%B3%D0%B4%D1%8D%D0%B6-%D0%B1%D0%B0%D0%B9%D0%B3%D0%B0%D0%B0%D0%B3-%D1%88%D0%B0%D0%BB%D0%B3%D0%B0%D1%85)
+  - [Resource руу authorization хүрэхгүй үед request явуулахад зөвшөөрөхгүй байх ](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/REST-API-release-MR-checklist-wiki#authorization-%D1%85%D0%B8%D0%B9%D0%B3%D0%B4%D1%8D%D0%B6-%D0%B1%D0%B0%D0%B9%D0%B3%D0%B0%D0%B0%D0%B3-%D1%88%D0%B0%D0%BB%D0%B3%D0%B0%D1%85)
+  - [Өөрт хамааралгүй endpoint руу request явуулахад зөвшөөрөхгүй байх (user admin-ний endpoint руу хандах) ](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/REST-API-release-MR-checklist-wiki#authorization-%D1%85%D0%B8%D0%B9%D0%B3%D0%B4%D1%8D%D0%B6-%D0%B1%D0%B0%D0%B9%D0%B3%D0%B0%D0%B0%D0%B3-%D1%88%D0%B0%D0%BB%D0%B3%D0%B0%D1%85)
 - Security
-  - [Header болон бусад unsafe param-уудыг encode хийсэн байх ](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/Rest-API#header-%D0%B1%D0%BE%D0%BB%D0%BE%D0%BD-%D0%B1%D1%83%D1%81%D0%B0%D0%B4-sensitive-param-%D1%83%D1%83%D0%B4%D1%8B%D0%B3-encode-%D1%85%D0%B8%D0%B9%D1%81%D1%8D%D0%BD-%D0%B1%D0%B0%D0%B9%D1%85)
+  - [Header болон бусад unsafe param-уудыг encode хийсэн байх ](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/REST-API-release-MR-checklist-wiki#header-%D0%B1%D0%BE%D0%BB%D0%BE%D0%BD-%D0%B1%D1%83%D1%81%D0%B0%D0%B4-sensitive-param-%D1%83%D1%83%D0%B4%D1%8B%D0%B3-encode-%D1%85%D0%B8%D0%B9%D1%81%D1%8D%D0%BD-%D0%B1%D0%B0%D0%B9%D1%85)
 - SSL certificate ашигласан байх
 
 ## Performance
- - API ийн response time, latency, [TTFB](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/Rest-API#time-to-first-byte)/[TTLB](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/Rest-API#time-to-last-byte-ttlb) ийг бүх орчин, нөхцөлд хүлээн зөвшөөрөгдөх хэмжээнд байгааг шалгаж үзэх
+ - API ийн response time, latency, [TTFB](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/REST-API-release-MR-checklist-wiki#time-to-first-byte)/[TTLB](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/REST-API-release-MR-checklist-wiki#time-to-last-byte-ttlb) ийг бүх орчин, нөхцөлд хүлээн зөвшөөрөгдөх хэмжээнд байгааг шалгаж үзэх
   - production тай ижил орчинд, under load системийн capacity limit-дээ хүрсэн үед
   - production тай ижил орчинд, no load буюу системийн capacity бага ачаалласан байх үед
 
 ## Status code
-  - [HTTP status code зөв ашигласан байх ](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/Rest-API#http-status-codes)
+  - [HTTP status code зөв ашигласан байх ](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/REST-API-release-MR-checklist-wiki#http-status-codes)
 ## Response
   - Зөв бүтэц, зохион байгуулалттай object ирэх
   - Request-тэй хамааралтай model-ийн дата буцаадаг байх
@@ -71,7 +71,7 @@
 1. Basic positive + optional parameters – API call хийхдээ valid болон optional parameter явуулж checklist-ийг шалгах
 	- API call хийхдээ valid required parameters явуулж chekclist-ийг шалгах
 	- Өмнөхтэй ижил + valid optional parameters явуулж checklist-ийг шалгах (filter, sort, limit, skip гэх мэт)
-    - [Versioning ашиглаж байвал хуучин болон шинэ endpoint-руу ижилхэн request явуулж үзэх](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/Rest-API#api-versioning)
+    - [Versioning ашиглаж байвал хуучин болон шинэ endpoint-руу ижилхэн request явуулж үзэх](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/REST-API-release-MR-checklist-wiki#api-versioning)
   - [ ] Security болон Authorization :white_check_mark:
   - [ ] Performance :white_check_mark:
   - [ ] Status code :white_check_mark:
@@ -94,13 +94,13 @@
     - Authorization token буруу эсвэл явуулахгүй байх
     - Invalid value явуулах (date дээр string, int гэх мэт)
     - Invalid id эсвэл хоосон query parameters дээр явуулах
-    - [Common ашигладаггүй char body/querystring param дээр ашиглаж request явуулж үзэх(4 byte char, emoji гэх мэт)](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/Rest-API#params)
+    - [Common ашигладаггүй char body/querystring param дээр ашиглаж request явуулж үзэх(4 byte char, emoji гэх мэт)](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/REST-API-release-MR-checklist-wiki#params)
     - Invalid model эсвэл nested дата буруу байх
-    - [SQL injection-хийх](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/Rest-API#sql-injection-%D1%8D%D1%8D%D1%81-%D1%85%D0%B0%D0%BC%D0%B3%D0%B0%D0%B0%D0%BB%D1%81%D0%B0%D0%BD-%D1%8D%D1%81%D1%8D%D1%85%D1%8D%D1%8D-%D1%88%D0%B0%D0%BB%D0%B3%D0%B0%D1%85)
-    - [Request body length-ээс давсан request явуулах](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/Rest-API#request-body-length-%D1%8D%D1%8D%D1%81-%D0%B4%D0%B0%D0%B2%D1%81%D0%B0%D0%BD-request-%D1%8F%D0%B2%D1%83%D1%83%D0%BB%D0%B0%D1%85)
+    - [SQL injection-хийх](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/REST-API-release-MR-checklist-wiki#sql-injection-%D1%8D%D1%8D%D1%81-%D1%85%D0%B0%D0%BC%D0%B3%D0%B0%D0%B0%D0%BB%D1%81%D0%B0%D0%BD-%D1%8D%D1%81%D1%8D%D1%85%D1%8D%D1%8D-%D1%88%D0%B0%D0%BB%D0%B3%D0%B0%D1%85)
+    - [Request body length-ээс давсан request явуулах](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/REST-API-release-MR-checklist-wiki#request-body-length-%D1%8D%D1%8D%D1%81-%D0%B4%D0%B0%D0%B2%D1%81%D0%B0%D0%BD-request-%D1%8F%D0%B2%D1%83%D1%83%D0%BB%D0%B0%D1%85)
     - Body-гүй хоосон request явуулж үзэх
     - Invalid HTTP header явуулах
-    - [Content-Type зөрүүлж request явуулах (json үед JS гэх мэт)](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/Rest-API#content-type)
+    - [Content-Type зөрүүлж request явуулах (json үед JS гэх мэт)](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/REST-API-release-MR-checklist-wiki#content-type)
     - Required Header-үүд хасаж явуулж үзэх
     - Байхгүй endpoint дуудах
   - [ ] Security болон Authorization :white_check_mark:
@@ -123,7 +123,7 @@
 	  - Request дотор хоосон sub-object явуулах
 	- request болон parameter-ээр зөвшөөрөөгүй тэмдэгтүүд явуулах
 	- Буруу HTTP headers ашиглах (Жишээ нь: Буруу Content-Type явуулах)
-    - [Request time out хийгдэж байх](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/Rest-API#request-timeout)
+    - [Request time out хийгдэж байх](https://gitlab.unimedia.mn/ums-example-group/ums-example-project/-/wikis/REST-API-release-MR-checklist-wiki#request-timeout)
 	- Concurrency тест хийх – API call хийхдээ нэг ижил resource-руу зэрэг хүсэлт явуулах (Жишээ: delete + patch request зэрэг явуулах)
   - [ ] Security болон Authorization :white_check_mark:
   - [ ] Performance :white_check_mark:
