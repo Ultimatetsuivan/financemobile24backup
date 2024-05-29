@@ -6,7 +6,7 @@ export default function RootLayout() {
       <Stack>
         <Stack.Screen name="index"  options={{ headerShown: false }} />
         <Stack.Screen name="main"  options={{ headerShown: false }} />
-        <Stack.Screen name="forgot-pass" options={{headerShown: false}}/>
+        {/* <Stack.Screen name="forgot_pass" options={{headerShown: false}}/> */}
       </Stack>
   );
 }
