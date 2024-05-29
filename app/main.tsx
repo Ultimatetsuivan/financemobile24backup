@@ -15,8 +15,11 @@ export default function MainPage() {
         <View marginT-100 center>
           <Button text70 white background-orange30 label="Login"/>
           <Button link text70 orange30 label="Sign Up" marginT-20/>
+          <Link href="/Balance"><Text blue10 text40>Balance</Text></Link>
+          <Link href="/Analytic"><Text blue10 text40>Analytic</Text></Link>
+          <Link href="/Category"><Text blue10 text40>Category</Text></Link>
         </View>
-        <Link href="/">Login</Link>
+        
       </View>
   );
 }
