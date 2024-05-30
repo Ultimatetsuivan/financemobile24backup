@@ -17,9 +17,9 @@ export default function MainPage() {
           <Button link text70 orange30 label="Sign Up" marginT-20/>
         </View>
         <View center>
-          <Link href="/Analytic"><Text orange30 text70>Analytic</Text> </Link>
-          <Link href="/Balance"><Text orange30 text70>Balance</Text></Link>
-        < Link href="/Category"><Text orange30 text70>Category</Text></Link>
+          <Link href="/analytic"><Text orange30 text70>Analytic</Text> </Link>
+          <Link href="/balance"><Text orange30 text70>Balance</Text></Link>
+        < Link href="/category"><Text orange30 text70>Category</Text></Link>
         </View>
       </View>
   );

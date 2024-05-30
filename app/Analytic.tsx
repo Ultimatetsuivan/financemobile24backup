@@ -2,7 +2,7 @@
 import {View, TextField, Text, Button} from 'react-native-ui-lib';
 import { Link } from 'expo-router';
 
-export default function Index() {
+export default function Analytic() {
   return (
     <View flex paddingH-25 paddingT-120>
         <Text blue50 text30>Analytic & report</Text>
