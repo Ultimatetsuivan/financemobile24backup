@@ -10,8 +10,8 @@ export default function Index() {
         <TextField text50 placeholder="password" secureTextEntry grey10/>
         <View marginT-100 center>
           <Button text70 white background-orange30 label="Login"/>
+          <Link  href="/forgot_pass">Forgot a password</Link>
           <Button link text70 orange30 label="Sign Up" marginT-20/>
-
           <Link href="/main">Main</Link>
         </View>
       </View>
