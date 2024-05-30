@@ -11,7 +11,7 @@ export default function Index() {
         <View marginT-100 center>
           <Button text70 white background-orange30 label="Login"/>
           <Link  href="/forgot_pass">Forgot a password</Link>
-          <Button link text70 orange30 label="Sign Up" marginT-20/>
+          <Link href="/signup"><Text orange30 text70>Sign up</Text> </Link>
           <Link href="/main">Main</Link>
         </View>
       </View>
