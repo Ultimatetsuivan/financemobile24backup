@@ -9,6 +9,7 @@ export default function RootLayout() {
         <Stack.Screen name="analytic"  options={{ headerShown: false }} />
         <Stack.Screen name="balance"  options={{ headerShown: false }} />
         <Stack.Screen name="category"  options={{ headerShown: false }} />
+        <Stack.Screen name="forgot_pass" options={{headerShown: true}}/>
       </Stack>
   );
 }
