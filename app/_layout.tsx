@@ -10,6 +10,7 @@ export default function RootLayout() {
         <Stack.Screen name="balance"  options={{ headerShown: false }} />
         <Stack.Screen name="category"  options={{ headerShown: false }} />
         <Stack.Screen name="forgot_pass" options={{headerShown: true}}/>
+        <Stack.Screen name="signup" options={{headerShown: true}}/>
       </Stack>
   );
 }
