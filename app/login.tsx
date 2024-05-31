@@ -1,6 +1,6 @@
 
 import {View, TextField, Text, Button} from 'react-native-ui-lib';
-import { Link } from 'expo-router';
+import { Link, router } from 'expo-router';
 import React, { useState } from 'react'
 import { Alert, StyleSheet,  AppState } from 'react-native'
 import { supabase } from '../lib/supabase'
@@ -31,19 +31,8 @@ export default function Index() {
     setLoading(false)
   }
  
-  async function signUpWithEmail() {
-    setLoading(true)
-    const {
-      data: { session },
-      error,
-    } = await supabase.auth.signUp({
-      email: email,
-      password: password,
-    })
-
-    if (error) Alert.alert(error.message)
-    if (!session) Alert.alert('Please check your inbox for email verification!')
-    setLoading(false)
+  async function NavigateSignup() {
+    router.replace("/signup")
   }
 
   return (
@@ -69,7 +58,7 @@ export default function Index() {
         <View marginT-100 >
           <Link  href="/forgot_pass">Forgot a password</Link>
           <Button text70 orange30 label="Login" disabled={loading} onPress={() => signInWithEmail()} />
-          <Button text70 orange30 label="Register" disabled={loading} onPress={() => signUpWithEmail()} />
+          <Button text70 orange30 label="Signup" disabled={loading} onPress={() => NavigateSignup()} />
         </View>
       </View>
   );
